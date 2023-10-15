@@ -1,5 +1,5 @@
-from cpf import Cpf
+from cpf_cnpj import CpfCnpj
 
-cpf_um = Cpf("15316264754")
+exemplo_cnpj = "35379838000112"
 
-print(cpf_um)
+documento = CpfCnpj(exemplo_cnpj, "cnpj")
